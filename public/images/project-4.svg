@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#18181b"/><rect x="70" y="60" width="1060" height="555" rx="24" fill="#09090b" stroke="#3f3f46"/>
+<rect x="110" y="105" width="980" height="80" rx="14" fill="#18181b"/><rect x="110" y="220" width="980" height="345" rx="14" fill="#111827"/>
+<g fill="#2563eb"><rect x="165" y="420" width="55" height="90" rx="6"/><rect x="250" y="360" width="55" height="150" rx="6"/><rect x="335" y="395" width="55" height="115" rx="6"/><rect x="420" y="315" width="55" height="195" rx="6"/><rect x="505" y="375" width="55" height="135" rx="6"/><rect x="590" y="285" width="55" height="225" rx="6"/><rect x="675" y="345" width="55" height="165" rx="6"/></g>
+<text x="145" y="154" fill="#a1a1aa" font-size="25" font-family="Arial">LV DOWNTIME MONTHLY REPORT</text></svg>
