@@ -55,7 +55,7 @@ function App() {
       <header className="fixed inset-x-0 top-0 z-50 border-b border-white/5 bg-zinc-950/80 backdrop-blur-xl">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
           <a href="#" className="font-bold tracking-tight">
-            KS<span className="text-blue-400">.</span>
+            Kahta<span className="text-blue-400">.</span>
           </a>
 
           <div className="hidden items-center gap-7 text-sm text-zinc-400 sm:flex">
@@ -71,7 +71,7 @@ function App() {
             rel="noreferrer"
             className="flex items-center gap-2 rounded-full border border-white/10 px-4 py-2 text-sm transition hover:border-white/20 hover:bg-white/5"
           >
-            <Github size={16} />
+            <span className="text-base">GH</span>
             GitHub
           </a>
         </nav>
@@ -112,10 +112,24 @@ function App() {
             </div>
 
             <div className="mt-10 flex gap-3">
-              <Social href="https://github.com/" icon={<Github size={20} />} label="GitHub" />
-              <Social href="https://linkedin.com/" icon={<Linkedin size={20} />} label="LinkedIn" />
-              <Social href="mailto:your@email.com" icon={<Mail size={20} />} label="Email" />
-            </div>
+  <Social
+    href="https://github.com/kaharuddinsyah"
+    icon={<span className="text-sm font-bold">GH</span>}
+    label="GitHub"
+  />
+
+  <Social
+    href="https://www.linkedin.com/"
+    icon={<span className="text-sm font-bold">in</span>}
+    label="LinkedIn"
+  />
+
+  <Social
+    href="mailto:your@email.com"
+    icon={<Mail size={20} />}
+    label="Email"
+  />
+</div>
           </div>
         </section>
 
@@ -249,5 +263,9 @@ function Social({ href, icon, label }) {
     </a>
   )
 }
-
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
 export default App
