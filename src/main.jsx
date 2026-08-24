@@ -1,6 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Github, Linkedin, Mail, ArrowUpRight, ExternalLink, Code2, Smartphone, Database, Server } from 'lucide-react'
+import {
+  Mail,
+  ArrowUpRight,
+  ExternalLink,
+  Code2,
+  Smartphone,
+  Database,
+  Server,
+} from 'lucide-react'
 import './index.css'
 
 const projects = [
